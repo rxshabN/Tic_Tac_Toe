@@ -15,7 +15,9 @@
         android:layout_marginTop="23dp"
         android:fontFamily="cursive"
         android:text="@string/heading"
-        android:textSize="38sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +25,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="575dp"
+        android:layout_width="500dp"
         android:layout_height="0dp"
         android:layout_marginBottom="60dp"
         android:contentDescription="@string/grid"
@@ -153,6 +155,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40sp"
         android:text="X's turn - Tap to play"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -167,6 +170,7 @@
         android:layout_marginRight="10sp"
         android:layout_marginBottom="5sp"
         android:text="@string/credits"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
